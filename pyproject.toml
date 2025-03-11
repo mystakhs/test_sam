@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-sam"
+version = "0.1.0"
+description = ""
+authors = ["akky"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.3"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
